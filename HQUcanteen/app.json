@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/canteen/canteen",
+    "pages/message/message",
+    "pages/pCenter/pCenter",
+    "pages/search/search",
+    "pages/login/login"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "华大餐厅",
+    "navigationBarTextStyle":"black"
+  },
+  
+  "tabBar": {
+    "color": "#000", 
+    "selectedColor": "#00CED1", 
+    "borderStyle":"black",
+    "backgroundColor": "#F8F4EB",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/首页.png",
+      "selectedIconPath": "icons/首页.png"
+    },
+    {
+      "pagePath": "pages/canteen/canteen",
+      "text": "餐厅",
+      "iconPath": "icons/餐厅.png",
+      "selectedIconPath": "icons/餐厅.png"
+    },
+    {
+    "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "icons/消息.png",
+      "selectedIconPath": "icons/消息.png"
+    },
+    {
+      "pagePath": "pages/pCenter/pCenter",
+        "text": "我的",
+        "iconPath": "icons/我的.png",
+        "selectedIconPath": "icons/我的.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

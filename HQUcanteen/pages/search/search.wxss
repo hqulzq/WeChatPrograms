@@ -1,0 +1,29 @@
+page{
+ background-color: rgb(251,247,238);
+}
+
+.searchArea{
+  float: left;
+
+}
+
+.searchArea .searchInput{
+  border: 5rpx solid rgb(168,173,115);
+  border-radius: 10rpx;
+  width: 50%;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+
+.searchArea .search{
+  position: absolute;
+  margin-top: 30rpx;
+  margin-left: 100rpx;
+  height: 37rpx;
+  width: 7%;
+  border: 5rpx solid rgb(168,173,115);
+  text-align: center;
+  border-radius: 10rpx;
+  font-size: 40rpx;
+
+}

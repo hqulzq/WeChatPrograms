@@ -1,0 +1,4 @@
+<view class="searchArea">
+    <input type="text" placeholder=" 点击搜索菜品或餐厅" class="searchInput"></input>
+    <input type="text" readonly="readonly" class="search iconfont icon-sousuo"></input>
+</view>
